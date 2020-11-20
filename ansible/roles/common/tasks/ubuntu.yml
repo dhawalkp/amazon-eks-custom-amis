@@ -6,7 +6,7 @@
 - name: be sure the disks are configured
   set_fact:
     secondary_disk_format: xfs
-    secondary_disk_name: /dev/nvme0n1
+    secondary_disk_name: /dev/nvme1n1
     secondary_disk_partitions:
       - name: debian-var
         path: /var
